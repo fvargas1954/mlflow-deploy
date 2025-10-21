@@ -208,3 +208,29 @@ __marimo__/
 
 mlruns/
 mlartifacts/
+
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Dataset original (es muy pesado)
+data/creditcard.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scripts temporales
+split_data.py
+explore_data.py
